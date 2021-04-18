@@ -1,0 +1,20 @@
+micronaut:
+  application:
+    name: PersistentSessionManger
+    db-creds-tenant-OCID: Your tenancy OCI goes here
+    db-creds-user-OCID: Your user OCI goes here
+    db-creds-fingerprint: The fingerprint for your private key goes here
+    db-creds-path-to-signing-key-file: A fully qualified path to your private key goes here
+    db-creds-signing-key-password: The password for your private key goes here
+    db-region-uri: Put the cloud region endpoint to connect to here for example nosql.us-phoenix-1.oci.oraclecloud.com
+    db-table-compartment: The name of a compartment in IAM for you table goes here
+  test:
+    name: PersistentSessionMangerTest
+    path_to_test_data: A fully qualifed path to test data to running unit tests
+    db-creds-tenant-OCID: Your tenancy OCI for your tests goes here
+    db-creds-user-OCID: Your user OCI for your tests goes here
+    db-creds-fingerprint: The fingerprint for your private key goes here
+    db-creds-path-to-signing-key-file: A fully qualified path to your private key goes here
+    db-creds-signing-key-password: The password for your private key goes here
+    db-region-uri: Put the cloud region endpoint to connect to here for example nosql.us-phoenix-1.oci.oraclecloud.com
+    db-table-compartment: The name of a compartment in IAM for you table goes here

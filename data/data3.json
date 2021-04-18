@@ -1,0 +1,54 @@
+{
+  "account_number": 3,
+  "session_info": [{
+    "userName": "Pablo",
+    "showName": "A Tale Of The Unknown",
+    "showID": 6,
+    "showType": "tvseries",
+    "numSeasons" : 3,
+    "seriesInfo": [{
+      "seasonNum": 1,
+      "numEpisodes": 10,
+      "episodes": [{
+        "episodeID": 1,
+        "lengthMin": 55,
+        "minWatched": 55,
+        "lastWatched": "2020-11-19T07:12:50",
+        "thumbnail": "/images/episodestotu01.png"
+      },
+        {
+          "episodeID": 2,
+          "lengthMin": 55,
+          "minWatched": 20,
+          "lastWatched": "2020-11-21T09:50:26",
+          "thumbnail": "/images/episodestotu02.png"
+        },
+        {
+          "episodeID": 3,
+          "lengthMin": 55,
+          "minWatched": 25,
+          "lastWatched": "2020-11-30T07:03:55",
+          "thumbnail": "/images/episodestotu03.png"
+        }
+      ]
+    }]
+  },
+    {
+      "showName": "Secret Agent 592011",
+      "showID": 7,
+      "showType": "movie",
+      "numSeasons" : null,
+      "seriesInfo": [{
+        "seasonNum": null,
+        "numEpisodes": null,
+        "episodes": [{
+          "episodeID": null,
+          "lengthMin": 155,
+          "minWatched": 155,
+          "lastWatched": "2020-07-15T16:10:54",
+          "thumbnail": "/images/movie0007.png"
+        }]
+      }]
+    }
+  ]
+}

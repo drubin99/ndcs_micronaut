@@ -1,0 +1,40 @@
+{
+  "account_number": 3,
+  "session_info": [{
+    "userName": "Francisco",
+    "showName": "The Seventh Dimension",
+    "showID": 12,
+    "showType": "movie",
+    "numSeasons" : null,
+    "seriesInfo": [{
+      "seasonNum": null,
+      "numEpisodes": null,
+      "episodes": [{
+        "episodeID": null,
+        "lengthMin": 155,
+        "minWatched": 155,
+        "lastWatched": "2020-07-25T16:10:54",
+        "thumbnail": "/images/movie0012.png"
+      }]
+    }]
+  },
+    {
+      "showName": "The Wonder Hamster",
+      "showID": 1,
+      "showType": "movie",
+      "numSeasons" : null,
+      "seriesInfo": [{
+        "seasonNum": null,
+        "numEpisodes": null,
+        "episodes": [{
+          "episodeID": null,
+          "lengthMin": 126,
+          "minWatched": 126,
+          "lastWatched": "2020-11-20T16:45:11",
+          "thumbnail": "/images/movie0001.png"
+        }]
+      }]
+    }
+
+  ]
+}

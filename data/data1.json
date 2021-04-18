@@ -1,0 +1,51 @@
+{
+    "account_number": 1,
+    "session_info": [{
+	    "userName": "Julie",
+	    "showName": "The Wonder Hamster",
+	    "showID": 1,
+	    "showType": "movie",
+	    "numSeasons" : null,
+	    "seriesInfo": [{
+	        "seasonNum": null,
+	        "numEpisodes": null,
+	        "episodes": [{
+		    "episodeID": null,
+		    "lengthMin": 126,
+		    "minWatched": 126,
+		    "lastWatched": "2020-03-20T18:25:51",
+		    "thumbnail": "/images/movie0001.png"
+	    }]
+	  }]
+    },
+    {
+        "showName": "Call My Agent",
+	    "showID": 2,
+	    "showType": "tvseries",
+	    "numSeasons" : 2,
+	    "seriesInfo": [{
+	        "seasonNum": 1,
+	        "numEpisodes": 10,
+	        "episodes": [{
+	            "episodeID": 1,
+	            "lengthMin": 55,
+	            "minWatched": 55,
+	            "lastWatched": "2020-09-27T07:28:25",
+	            "thumbnail": "/images/episodecmm01.png"
+	        },
+	        {
+	            "episodeID": 2,
+	            "lengthMin": 55,
+	            "minWatched": 31,
+	            "lastWatched": "2020-10-01T08:24:01",
+	            "thumbnail": "/images/episodecmm02.png"
+	        },
+			{
+	            "episodeID": 3,
+	            "lengthMin": 55,
+	            "minWatched": 25,
+	            "lastWatched": "2020-10-02T09:30:11",
+	            "thumbnail": "/images/episodecmm03.png"
+	        }]
+        }]
+}]}

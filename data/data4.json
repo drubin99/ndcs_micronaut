@@ -1,0 +1,29 @@
+{
+  "account_number": 4,
+  "session_info": [{
+    "userName": "Maria",
+    "showName": "The Dynasty Of Takuhashi",
+    "showID": 11,
+    "showType": "tvseries",
+    "numSeasons" : 3,
+    "seriesInfo": [{
+      "seasonNum": 1,
+      "numEpisodes": 8,
+      "episodes": [{
+        "episodeID": 1,
+        "lengthMin": 55,
+        "minWatched": 55,
+        "lastWatched": "2020-07-03T17:50:28",
+        "thumbnail": "/images/episodesdot01.png"
+      },
+        {
+          "episodeID": 2,
+          "lengthMin": 55,
+          "minWatched": 55,
+          "lastWatched": "2020-07-11T10:16:33",
+          "thumbnail": "/images/episodesdot02.png"
+        }
+      ]
+    }]
+  }]
+}

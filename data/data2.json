@@ -1,0 +1,93 @@
+{
+  "account_number": 2,
+  "session_info": [{
+    "userName": "Michael",
+    "showName": "Somewhere In New York City",
+    "showID": 3,
+    "showType": "tvseries",
+    "numSeasons" : 2,
+    "seriesInfo": [{
+      "seasonNum": 1,
+      "numEpisodes": 10,
+      "episodes": [{
+        "episodeID": 1,
+        "lengthMin": 55,
+        "minWatched": 55,
+        "lastWatched": "2020-07-04T12:50:44",
+        "thumbnail": "/images/episodesnyc01.png"
+      },
+        {
+          "episodeID": 2,
+          "lengthMin": 55,
+          "minWatched": 55,
+          "lastWatched": "2021-01-05T11:57:20",
+          "thumbnail": "/images/episodesnyc02.png"
+        },
+        {
+          "episodeID": 3,
+          "lengthMin": 55,
+          "minWatched": 31,
+          "lastWatched": "2020-07-06T13:33:28",
+          "thumbnail": "/images/episodesnyc03.png"
+        }
+      ]
+    }]
+  },
+    {
+      "showName": "What A Beautiful Day",
+      "showID": 4,
+      "showType": "movie",
+      "numSeasons" : null,
+      "seriesInfo": [{
+        "seasonNum": null,
+        "numEpisodes": null,
+        "episodes": [{
+          "episodeID": null,
+          "lengthMin": 155,
+          "minWatched": 24,
+          "lastWatched": "2021-01-06T08:20:03",
+          "thumbnail": "/images/movie0004.png"
+        }]
+      }]
+    },
+    {
+      "showName": "The Mystery of The Forest",
+      "showID": 5,
+      "showType": "tvseries",
+      "numSeasons" : 3,
+      "seriesInfo": [{
+        "seasonNum": 1,
+        "numEpisodes": 7,
+        "episodes": [{
+          "episodeID": 1,
+          "lengthMin": 55,
+          "minWatched": 55,
+          "lastWatched": "2020-02-17T22:22:50",
+          "thumbnail": "/images/episodesmmtf01.png"
+        },
+          {
+            "episodeID": 2,
+            "lengthMin": 55,
+            "minWatched": 55,
+            "lastWatched": "2020-03-12T15:40:52",
+            "thumbnail": "/images/episodesmmtf02.png"
+          },
+          {
+            "episodeID": 3,
+            "lengthMin": 55,
+            "minWatched": 55,
+            "lastWatched": "2020-03-25T17:20:12",
+            "thumbnail": "/images/episodesmmtf03.png"
+          },
+          {
+            "episodeID": 4,
+            "lengthMin": 55,
+            "minWatched": 35,
+            "lastWatched": "2020-03-26T17:30:10",
+            "thumbnail": "/images/episodesmmtf04.png"
+          }
+        ]
+      }]
+    }
+  ]
+}

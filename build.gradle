@@ -1,0 +1,48 @@
+plugins {
+    id("com.github.johnrengelman.shadow") version "6.1.0"
+    id("io.micronaut.application") version "1.4.2"
+}
+
+version = "0.1"
+group = "session.PersistentSessionManager"
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+micronaut {
+    runtime("netty")
+    testRuntime("junit5")
+    processing {
+        incremental(true)
+        annotations("session.PersistentSessionManager.*")
+    }
+}
+
+dependencies {
+    implementation("io.micronaut:micronaut-validation")
+    implementation("io.micronaut:micronaut-runtime")
+    implementation("io.micronaut:micronaut-http-client")
+    implementation("com.oracle.nosql.sdk:nosqldriver:5.2.26")
+    implementation("javax.json:javax.json-api:1.1.4")
+    runtimeOnly("ch.qos.logback:logback-classic")
+    testImplementation("io.micronaut.test:micronaut-test-core:2.3.3")
+    testImplementation("io.micronaut.test:micronaut-test-spock:2.3.2")
+    testImplementation("org.glassfish:javax.json:1.1")
+    testImplementation("org.spockframework:spock-core:2.0-M5-groovy-3.0") {
+        exclude group: "org.codehaus.groovy", module: "groovy-all"
+    }
+}
+
+
+application {
+    mainClass.set("session.PersistentSessionManager.Application")
+}
+java {
+    sourceCompatibility = JavaVersion.toVersion("1.8")
+    targetCompatibility = JavaVersion.toVersion("1.8")
+}
+
+
+
